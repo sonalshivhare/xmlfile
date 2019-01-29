@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1960" started-at="2019-01-24T03:37:45Z" finished-at="2019-01-24T03:37:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1960" started-at="2019-01-24T03:37:45Z" finished-at="2019-01-24T03:37:47Z">
+      <class name="com.task.testData">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.task.testData@1921e20]" name="openBrowser" is-config="true" duration-ms="16623" started-at="2019-01-24T03:37:29Z" finished-at="2019-01-24T03:37:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="setupReport()[pri:0, instance:com.task.testData@1921e20]" name="setupReport" is-config="true" duration-ms="155" started-at="2019-01-24T03:37:45Z" finished-at="2019-01-24T03:37:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method status="PASS" signature="verify_AboutSir()[pri:0, instance:com.task.testData@1921e20]" name="verify_AboutSir" duration-ms="605" started-at="2019-01-24T03:37:45Z" finished-at="2019-01-24T03:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_AboutSir -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.task.testData@1921e20]" name="tearDown" is-config="true" duration-ms="351" started-at="2019-01-24T03:37:46Z" finished-at="2019-01-24T03:37:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_AboutSir status=SUCCESS method=testData.verify_AboutSir()[pri:0, instance:com.task.testData@1921e20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupReport()[pri:0, instance:com.task.testData@1921e20]" name="setupReport" is-config="true" duration-ms="1" started-at="2019-01-24T03:37:46Z" finished-at="2019-01-24T03:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method status="FAIL" signature="verify_AngularSyllbus()[pri:0, instance:com.task.testData@1921e20]" name="verify_AngularSyllbus" duration-ms="92" started-at="2019-01-24T03:37:46Z" finished-at="2019-01-24T03:37:46Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Selenium Testing] but found [Videos]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Selenium Testing] but found [Videos]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.task.testData.verify_AngularSyllbus(testData.java:118)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_AngularSyllbus -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.task.testData@1921e20]" name="tearDown" is-config="true" duration-ms="333" started-at="2019-01-24T03:37:46Z" finished-at="2019-01-24T03:37:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_AngularSyllbus status=FAILURE method=testData.verify_AngularSyllbus()[pri:0, instance:com.task.testData@1921e20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setupReport()[pri:0, instance:com.task.testData@1921e20]" name="setupReport" is-config="true" duration-ms="1" started-at="2019-01-24T03:37:47Z" finished-at="2019-01-24T03:37:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method status="PASS" signature="verify_Home()[pri:0, instance:com.task.testData@1921e20]" name="verify_Home" duration-ms="85" started-at="2019-01-24T03:37:47Z" finished-at="2019-01-24T03:37:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Home -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.task.testData@1921e20]" name="tearDown" is-config="true" duration-ms="55" started-at="2019-01-24T03:37:47Z" finished-at="2019-01-24T03:37:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_Home status=SUCCESS method=testData.verify_Home()[pri:0, instance:com.task.testData@1921e20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verify_Seleniumtesting()[pri:0, instance:com.task.testData@1921e20]" name="verify_Seleniumtesting" duration-ms="80" started-at="2019-01-24T03:37:47Z" finished-at="2019-01-24T03:37:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Seleniumtesting -->
+        <test-method status="PASS" signature="setupReport()[pri:0, instance:com.task.testData@1921e20]" name="setupReport" is-config="true" duration-ms="0" started-at="2019-01-24T03:37:47Z" finished-at="2019-01-24T03:37:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.task.testData@1921e20]" name="tearDown" is-config="true" duration-ms="54" started-at="2019-01-24T03:37:47Z" finished-at="2019-01-24T03:37:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_Seleniumtesting status=SUCCESS method=testData.verify_Seleniumtesting()[pri:0, instance:com.task.testData@1921e20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verify_javasyllabus()[pri:0, instance:com.task.testData@1921e20]" name="verify_javasyllabus" duration-ms="76" started-at="2019-01-24T03:37:47Z" finished-at="2019-01-24T03:37:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_javasyllabus -->
+        <test-method status="PASS" signature="setupReport()[pri:0, instance:com.task.testData@1921e20]" name="setupReport" is-config="true" duration-ms="0" started-at="2019-01-24T03:37:47Z" finished-at="2019-01-24T03:37:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.task.testData@1921e20]" name="tearDown" is-config="true" duration-ms="45" started-at="2019-01-24T03:37:47Z" finished-at="2019-01-24T03:37:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_javasyllabus status=SUCCESS method=testData.verify_javasyllabus()[pri:0, instance:com.task.testData@1921e20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.task.testData@1921e20]" name="closeBrowser" is-config="true" duration-ms="32" started-at="2019-01-24T03:37:47Z" finished-at="2019-01-24T03:37:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.task.testData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

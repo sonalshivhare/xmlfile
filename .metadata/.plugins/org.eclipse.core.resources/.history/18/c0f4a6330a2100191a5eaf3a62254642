@@ -1,0 +1,18 @@
+package com.linktest;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Test_Case {
+public static void main(String[] args) {
+	WebDriver driver=new FirefoxDriver();
+	driver.get("file:///C:/Users/Lenovo/Desktop/JBK%20Offline/index.html");
+	driver.manage().window().maximize();
+	
+	System.out.println(1);
+String	actual_home=driver.findElement(By.xpath(".//a[@ href='index.html']")).getText();
+	
+	driver.quit();
+}
+}

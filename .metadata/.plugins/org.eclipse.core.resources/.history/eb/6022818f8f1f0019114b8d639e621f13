@@ -1,0 +1,24 @@
+package com.linktest;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.AfterSuite;
+
+public class Task {
+  @Test
+  public void f() {
+  }
+  @BeforeMethod
+  public void beforeMethod() {
+  }
+
+  @BeforeSuite
+  public void beforeSuite() {
+  }
+
+  @AfterSuite
+  public void afterSuite() {
+  }
+
+}

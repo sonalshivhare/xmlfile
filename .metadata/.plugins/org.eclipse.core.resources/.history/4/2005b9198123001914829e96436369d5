@@ -1,0 +1,22 @@
+package com.task;
+
+import java.io.File;
+
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+
+public class Screenshot {
+	
+public static String getscreenshot(WebDriver driver){
+TakesScreenshot	ts=(TakesScreenshot)driver;
+File surces=ts.getScreenshotAs(OutputType.FILE);
+     
+	
+	return null;
+		
+	}
+
+		
+	
+}

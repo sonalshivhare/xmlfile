@@ -1,0 +1,42 @@
+package java_SAX_Parser;
+
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.parsers.SAXParser;
+import javax.xml.parsers.SAXParserFactory;
+
+import org.xml.sax.Attributes;
+import org.xml.sax.SAXException;
+import org.xml.sax.helpers.DefaultHandler;
+
+public class ReadXmlUsingSax {
+public static void main(String[] args) {
+	try{
+	SAXParserFactory fact=SAXParserFactory.newInstance();
+		SAXParser saxparser=fact.newSAXParser();
+		
+		DefaultHandler haandle=new DefaultHandler(){
+			boolean bfname=false, blname=false,bscore=false;
+			
+			public void startElement(String uri,String location,String qName,Attributes attribtuees){
+				System.out.println("Start Element"+qName);
+				if(qName.equals("firstname"))bfname=true;
+				if(qName.equals("lastname"))blname=true;
+				if(qName.equals("score"))bscore=true;
+				
+			}
+			public void endElement(String uri,String localName,String qName){
+				
+			}
+			
+		};
+		
+			
+	} catch (ParserConfigurationException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	} catch (SAXException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+}
+}

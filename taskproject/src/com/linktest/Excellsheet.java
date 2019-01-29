@@ -1,0 +1,41 @@
+package com.linktest;
+
+import static org.testng.Assert.expectThrows;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class Excellsheet {
+public 	 XSSFWorkbook book;
+public	 XSSFSheet sheet1;
+public	Excellsheet(String excellpath) {
+		try {
+			File scr=new File(excellpath);//load 
+			FileInputStream fil=new FileInputStream(scr);//converted byte code 
+			      book=new XSSFWorkbook(fil);//load work
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+	}
+	
+	
+	public String getdata(){
+		sheet1=book.getSheetAt(0);
+	       String data =sheet1.getRow(1).getCell( 0).getStringCellValue();
+	       System.out.println(data);	
+		
+		return data;
+		
+	}
+	
+	public static void main(String[] args) throws Exception {
+		Excellsheet readdata=new Excellsheet("F:\\Selenium workspace\\taskproject\\ExcellSheet\testdata.xlsx");
+		 readdata.getdata();
+		 System.out.println( readdata);
+	}
+}

@@ -1,0 +1,9 @@
+package com.linktest;
+
+import org.testng.annotations.Test;
+
+public class Task1 {
+  @Test
+  public void f() {
+  }
+}

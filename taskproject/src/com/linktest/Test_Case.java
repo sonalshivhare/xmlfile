@@ -1,0 +1,35 @@
+package com.linktest;
+
+import static org.testng.Assert.assertEquals;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
+
+public class Test_Case {
+public static void main(String[] args) {
+	WebDriver driver=new FirefoxDriver();
+	driver.get("file:///C:/Users/Lenovo/Desktop/JBK%20Offline/index.html");
+	driver.manage().window().maximize();
+	
+	System.out.println(1);
+String	actual_home=driver.findElement(By.xpath(".//a[@ href='index.html']")).getText();
+	System.out.println(actual_home);
+	
+//String	expected_home="Home";
+//System.out.println(expected_home);
+//Assert.assertEquals(actual_home, expected_home);
+
+
+
+/*System.out.println(2);
+String	actual_aboutsir=driver.findElement(By.xpath("")).getText();
+System.out.println(actual_aboutsir);
+
+String	expected_aboutsir="Home";
+System.out.println(expected_aboutsir);
+Assert.assertEquals(actual_aboutsir,expected_aboutsir);*/
+	driver.quit();
+}
+}

@@ -1,0 +1,69 @@
+package java_SAX_Parser;
+
+import java.io.IOException;
+
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.parsers.SAXParser;
+import javax.xml.parsers.SAXParserFactory;
+
+import org.xml.sax.Attributes;
+import org.xml.sax.SAXException;
+import org.xml.sax.helpers.DefaultHandler;
+
+public class ReadXmlUsingSax {
+public static void main(String[] args) throws Exception {
+	try{
+	SAXParserFactory fact=SAXParserFactory.newInstance();
+		SAXParser saxparser=fact.newSAXParser();
+		
+		DefaultHandler handle=new DefaultHandler(){
+			boolean bfname=false, blname=false,bscore=false;
+			
+			public void startElement(String uri,String localname,String qName,Attributes attribtuees){
+				System.out.println("Start Element: "+bfname);
+				
+				if(qName.equals("firstname")) 
+					{
+					bfname=true;
+					
+					}
+				if(qName.equals("lastname")){ blname=true;
+				
+				}
+				
+				if(qName.equals("score")){ bscore=true;
+				
+			}
+				}
+			public void endElement(String uri,String localName,String qName){
+				System.out.println("End Element: "+bscore);
+			}
+			public void characters(char[] ch,int start, int length){
+				if(bfname){
+					System.out.println("First Name: "+ new String(ch,start,length));
+					bfname=false;
+				}
+				if(blname){
+					System.out.println("last Name: "+ new String(ch,start,length));
+					blname=false;
+				}
+				if(bscore){
+					System.out.println("score: "+ new String(ch,start,length));
+					bscore=false;
+				}
+			}
+			
+		};
+		
+		saxparser.parse("Students.xml", handle);
+		
+		
+	} catch (ParserConfigurationException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	} catch (SAXException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+}
+}

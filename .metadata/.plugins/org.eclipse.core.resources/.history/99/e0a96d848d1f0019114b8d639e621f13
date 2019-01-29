@@ -1,0 +1,15 @@
+package com.linktest;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Test_Case {
+public static void main(String[] args) {
+	WebDriver driver=new FirefoxDriver();
+	driver.findElement(By.xpath("file:///C:/Users/Lenovo/Desktop/JBK%20Offline/index.html"));
+	driver.manage().window().maximize();
+	
+	driver.quit();
+}
+}

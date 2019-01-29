@@ -1,0 +1,924 @@
+!SESSION 2019-01-23 22:50:08.347 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file F:\Selenium workspace\.metadata\.bak_0.log
+Created Time: 2019-01-23 23:23:42.335
+
+!ENTRY org.testng.eclipse 1 0 2019-01-23 23:23:42.341
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar F:\Selenium workspace\taskproject\bin F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61780 -protocol json -d F:\Selenium workspace\taskproject\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-630916944\testng-customsuite.xml
+java -ea -classpath F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar:F:\Selenium workspace\taskproject\bin:F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar org.testng.remote.RemoteTestNG -serport 61780 -protocol json -d F:\Selenium workspace\taskproject\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-630916944\testng-customsuite.xml
+!SESSION 2019-01-25 20:14:37.973 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-25 20:15:44.285
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lenovo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2019-01-25 20:32:18.431
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar F:\Selenium workspace\taskproject\bin F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51377 -protocol json -d F:\Selenium workspace\taskproject\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-704645532\testng-customsuite.xml
+java -ea -classpath F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar:F:\Selenium workspace\taskproject\bin:F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar org.testng.remote.RemoteTestNG -serport 51377 -protocol json -d F:\Selenium workspace\taskproject\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-704645532\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-01-25 20:36:29.099
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar F:\Selenium workspace\taskproject\bin F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51398 -protocol json -d F:\Selenium workspace\taskproject\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-172505511\testng-customsuite.xml
+java -ea -classpath F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar:F:\Selenium workspace\taskproject\bin:F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar org.testng.remote.RemoteTestNG -serport 51398 -protocol json -d F:\Selenium workspace\taskproject\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-172505511\testng-customsuite.xml
+!SESSION 2019-01-25 22:12:54.064 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-25 22:13:24.218
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lenovo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.recommenders.subwords.rcp 4 1 2019-01-25 23:06:55.209
+!MESSAGE Exception during code completion
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.jdt.internal.codeassist.CompletionEngine.checkCancel(CompletionEngine.java:1683)
+	at org.eclipse.jdt.internal.codeassist.CompletionEngine.acceptType(CompletionEngine.java:1181)
+	at org.eclipse.jdt.internal.core.SearchableEnvironmentRequestor.acceptType(SearchableEnvironmentRequestor.java:115)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypesInBinaryPackage(NameLookup.java:1085)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1019)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:962)
+	at org.eclipse.jdt.internal.core.NameLookup.findAllTypes(NameLookup.java:328)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:995)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:962)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:641)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:455)
+	at org.eclipse.jdt.internal.codeassist.CompletionEngine.findTypesAndPackages(CompletionEngine.java:10707)
+	at org.eclipse.jdt.internal.codeassist.CompletionEngine.completionOnSingleNameReference(CompletionEngine.java:3306)
+	at org.eclipse.jdt.internal.codeassist.CompletionEngine.complete(CompletionEngine.java:1713)
+	at org.eclipse.jdt.internal.codeassist.CompletionEngine.complete(CompletionEngine.java:1939)
+	at org.eclipse.jdt.internal.core.Openable.codeComplete(Openable.java:131)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeComplete(CompilationUnit.java:357)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeComplete(CompilationUnit.java:345)
+	at org.eclipse.recommenders.internal.subwords.rcp.SubwordsSessionProcessor.computeProposals(SubwordsSessionProcessor.java:316)
+	at org.eclipse.recommenders.internal.subwords.rcp.SubwordsSessionProcessor.getNewProposals(SubwordsSessionProcessor.java:205)
+	at org.eclipse.recommenders.internal.subwords.rcp.SubwordsSessionProcessor.initializeContext(SubwordsSessionProcessor.java:145)
+	at org.eclipse.recommenders.completion.rcp.processable.IntelligentCompletionProposalComputer.fireInitializeContext(IntelligentCompletionProposalComputer.java:292)
+	at org.eclipse.recommenders.completion.rcp.processable.IntelligentCompletionProposalComputer.computeCompletionProposals(IntelligentCompletionProposalComputer.java:169)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:337)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:322)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:279)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$5.run(ContentAssistant.java:1904)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.computeCompletionProposals(ContentAssistant.java:1902)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:573)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$16(CompletionProposalPopup.java:570)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$2.run(CompletionProposalPopup.java:505)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.showProposals(CompletionProposalPopup.java:499)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1720)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:180)
+	at org.eclipse.ui.texteditor.ContentAssistAction$1.run(ContentAssistAction.java:82)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.texteditor.ContentAssistAction.run(ContentAssistAction.java:80)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:122)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:252)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:234)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:493)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:486)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:286)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:507)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:558)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:378)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:324)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:86)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1266)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1112)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1122)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1164)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1160)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1581)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4795)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:343)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4676)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.jdt.ui 2 0 2019-01-25 23:06:55.618
+!MESSAGE The 'org.eclipse.recommenders.completion.rcp.javaCompletionProposalComputer.intelligent' proposal computer from the 'org.eclipse.recommenders.completion.rcp' plug-in did not complete normally. The extension took too long to return from the 'computeCompletionProposals()' operation.
+!SESSION 2019-01-26 00:01:22.389 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-26 00:01:52.004
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lenovo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.recommenders.rcp 4 18 2019-01-26 00:53:03.280
+!MESSAGE Failed to resolve selection in ‘=taskproject/src<libr{excellsheet.java’ at offset 713.
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromTypeRootInEditor(JavaElementSelections.java:164)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:119)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelections.resolveJavaElementFromEditor(JavaElementSelections.java:102)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.handleSelectionInEditor(JavaElementSelectionService.java:108)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService.access$1(JavaElementSelectionService.java:105)
+	at org.eclipse.recommenders.internal.rcp.JavaElementSelectionService$1.run(JavaElementSelectionService.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2019-01-26 22:52:50.665 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-26 22:53:39.774
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lenovo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-01-27 23:03:57.620 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-27 23:04:41.926
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lenovo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2019-01-27 23:04:42.410
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: dev.eclipse.org. ; version: 1.100.0.v20160217-0435
+!STACK 0
+java.net.UnknownHostException: dev.eclipse.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:102)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:205)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.ui 4 0 2019-01-27 23:40:42.010
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage.dialogChanged(NewTestNGClassWizardPage.java:236)
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage.access$0(NewTestNGClassWizardPage.java:231)
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage$1.modifyText(NewTestNGClassWizardPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Text.wmCommandChild(Text.java:3071)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Text.callWindowProc(Text.java:260)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2671)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:269)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:290)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.GeneratedMethodAccessor53.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:252)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:234)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:493)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:486)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:343)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:160)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.ui 4 0 2019-01-27 23:40:42.197
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage.dialogChanged(NewTestNGClassWizardPage.java:236)
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage.access$0(NewTestNGClassWizardPage.java:231)
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage$1.modifyText(NewTestNGClassWizardPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:179)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Text.wmCommandChild(Text.java:3071)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4824)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4679)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5063)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2443)
+	at org.eclipse.swt.widgets.Text.callWindowProc(Text.java:260)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4774)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2671)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:269)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:290)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.GeneratedMethodAccessor53.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:252)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:234)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:493)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:486)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:343)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:160)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.testng.eclipse 1 0 2019-01-27 23:48:32.064
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar F:\Selenium workspace\Task1\bin F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52319 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-23354981\testng-customsuite.xml
+java -ea -classpath F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar:F:\Selenium workspace\Task1\bin:F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar:F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar:F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar:F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar:F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar:F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar:F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar:F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar:F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar:F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar org.testng.remote.RemoteTestNG -serport 52319 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-23354981\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-01-27 23:52:36.860
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar F:\Selenium workspace\Task1\bin F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52339 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--1254058984\testng-customsuite.xml
+java -ea -classpath F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar:F:\Selenium workspace\Task1\bin:F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar:F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar:F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar:F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar:F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar:F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar:F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar:F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar:F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar:F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar org.testng.remote.RemoteTestNG -serport 52339 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--1254058984\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-01-27 23:56:27.686
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar F:\Selenium workspace\Task1\bin F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52389 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--2060574757\testng-customsuite.xml
+java -ea -classpath F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar:F:\Selenium workspace\Task1\bin:F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar:F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar:F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar:F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar:F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar:F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar:F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar:F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar:F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar:F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar org.testng.remote.RemoteTestNG -serport 52389 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--2060574757\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-01-28 00:00:09.923
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar F:\Selenium workspace\Task1\bin F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52404 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--1650125946\testng-customsuite.xml
+java -ea -classpath F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar:F:\Selenium workspace\Task1\bin:F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar:F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar:F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar:F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar:F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar:F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar:F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar:F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar:F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar:F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar org.testng.remote.RemoteTestNG -serport 52404 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--1650125946\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-01-28 00:01:28.219
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar F:\Selenium workspace\Task1\bin F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52417 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--104650911\testng-customsuite.xml
+java -ea -classpath F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar:F:\Selenium workspace\Task1\bin:F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar:F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar:F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar:F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar:F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar:F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar:F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar:F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar:F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar:F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar org.testng.remote.RemoteTestNG -serport 52417 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--104650911\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-01-28 00:04:39.211
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar F:\Selenium workspace\Task1\bin F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52446 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-2115794644\testng-customsuite.xml
+java -ea -classpath F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar:F:\Selenium workspace\Task1\bin:F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar:F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar:F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar:F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar:F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar:F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar:F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar:F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar:F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar:F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar org.testng.remote.RemoteTestNG -serport 52446 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-2115794644\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-01-28 00:06:10.588
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar F:\Selenium workspace\Task1\bin F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52460 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--427056810\testng-customsuite.xml
+java -ea -classpath F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar:F:\Selenium workspace\Task1\bin:F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar:F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar:F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar:F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar:F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar:F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar:F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar:F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar:F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar:F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar org.testng.remote.RemoteTestNG -serport 52460 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--427056810\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-01-28 00:10:09.814
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar F:\Selenium workspace\Task1\bin F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52502 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-2114162059\testng-customsuite.xml
+java -ea -classpath F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar:F:\Selenium workspace\Task1\bin:F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar:F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar:F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar:F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar:F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar:F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar:F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar:F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar:F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar:F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar org.testng.remote.RemoteTestNG -serport 52502 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-2114162059\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-01-28 00:11:16.891
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar F:\Selenium workspace\Task1\bin F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52525 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--1746515674\testng-customsuite.xml
+java -ea -classpath F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar:F:\Selenium workspace\Task1\bin:F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar:F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar:F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar:F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar:F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar:F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar:F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar:F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar:F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar:F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar org.testng.remote.RemoteTestNG -serport 52525 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--1746515674\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-01-28 00:11:59.047
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar F:\Selenium workspace\Task1\bin F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52541 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--233805593\testng-customsuite.xml
+java -ea -classpath F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar:F:\Selenium workspace\Task1\bin:F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar:F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar:F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar:F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar:F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar:F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar:F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar:F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar:F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar:F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar org.testng.remote.RemoteTestNG -serport 52541 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--233805593\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-01-28 00:21:36.416
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar F:\Selenium workspace\Task1\bin F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52634 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--1712565302\testng-customsuite.xml
+java -ea -classpath F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar:F:\Selenium workspace\Task1\bin:F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar:F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar:F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar:F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar:F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar:F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar:F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar:F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar:F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar:F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar org.testng.remote.RemoteTestNG -serport 52634 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--1712565302\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-01-28 00:23:16.006
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar F:\Selenium workspace\Task1\bin F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52667 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-1043127269\testng-customsuite.xml
+java -ea -classpath F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar:F:\Selenium workspace\Task1\bin:F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar:F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar:F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar:F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar:F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar:F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar:F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar:F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar:F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar:F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar org.testng.remote.RemoteTestNG -serport 52667 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-1043127269\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-01-28 00:25:49.309
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar F:\Selenium workspace\Task1\bin F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52703 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-118022347\testng-customsuite.xml
+java -ea -classpath F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar:F:\Selenium workspace\Task1\bin:F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar:F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar:F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar:F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar:F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar:F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar:F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar:F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar:F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar:F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar org.testng.remote.RemoteTestNG -serport 52703 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-118022347\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-01-28 00:30:41.543
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar F:\Selenium workspace\Task1\bin F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52759 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-828261715\testng-customsuite.xml
+java -ea -classpath F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar:F:\Selenium workspace\Task1\bin:F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar:F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar:F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar:F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar:F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar:F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar:F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar:F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar:F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar:F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar org.testng.remote.RemoteTestNG -serport 52759 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-828261715\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2019-01-28 00:32:27.274
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar F:\Selenium workspace\Task1\bin F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52792 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-297277585\testng-customsuite.xml
+java -ea -classpath F:\JBK Eclipse Configured 32-bit\JBK Eclipse Configured\eclipse\configuration\org.eclipse.osgi\934\0\.cp\lib\testng-remote.jar:F:\Selenium workspace\Task1\bin:F:\selenium\Selenium Software\Selenium lib\selenium-server-standalone-2.52.0.jar:F:\JAR for Selenium supported\jar_files\ant-1.8.2.jar:F:\JAR for Selenium supported\jar_files\ant-launcher-1.8.2.jar:F:\JAR for Selenium supported\jar_files\commons-codec-1.11.jar:F:\JAR for Selenium supported\jar_files\commons-collections4-4.2.jar:F:\JAR for Selenium supported\jar_files\commons-compress-1.18.jar:F:\JAR for Selenium supported\jar_files\commons-math3-3.6.1.jar:F:\JAR for Selenium supported\jar_files\curvesapi-1.05.jar:F:\JAR for Selenium supported\jar_files\poi-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-excelant-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-4.0.1.jar:F:\JAR for Selenium supported\jar_files\poi-ooxml-schemas-4.0.1.jar:F:\JAR for Selenium supported\jar_files\xmlbeans-3.0.2.jar org.testng.remote.RemoteTestNG -serport 52792 -protocol json -d F:\Selenium workspace\Task1\test-output C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-297277585\testng-customsuite.xml
+!SESSION 2019-01-28 13:07:02.184 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-28 13:07:41.878
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lenovo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2019-01-28 13:07:46.670
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Proxy Error. ; version: 1.100.0.v20160217-0435
+!STACK 0
+org.apache.http.client.HttpResponseException: Proxy Error
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:92)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:55)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:69)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.rcp 2 23 2019-01-28 17:31:43.664
+!MESSAGE Failed to parse news feed
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:290)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:259)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.getRSSFeed(CheckForProjectNewsJob.java:138)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.doRun(CheckForProjectNewsJob.java:89)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.run(CheckForProjectNewsJob.java:62)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at sun.security.validator.Validator.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 25 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 31 more
+!SESSION 2019-01-28 21:39:43.199 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-28 21:40:38.618
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lenovo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2019-01-28 21:40:54.260
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: dev.eclipse.org. ; version: 1.100.0.v20160217-0435
+!STACK 0
+java.net.UnknownHostException: dev.eclipse.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:102)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:205)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.rcp 2 23 2019-01-28 23:57:37.719
+!MESSAGE Failed to parse news feed
+!STACK 0
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at sun.security.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at sun.security.ssl.Handshaker.process_record(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:290)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:259)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.getRSSFeed(CheckForProjectNewsJob.java:138)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.doRun(CheckForProjectNewsJob.java:89)
+	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.run(CheckForProjectNewsJob.java:62)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(Unknown Source)
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source)
+	at sun.security.validator.Validator.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source)
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 25 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(Unknown Source)
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
+	at java.security.cert.CertPathBuilder.build(Unknown Source)
+	... 31 more
+!SESSION 2019-01-29 11:53:15.398 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-29 11:54:04.713
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lenovo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2019-01-29 11:54:12.488
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Proxy Error. ; version: 1.100.0.v20160217-0435
+!STACK 0
+org.apache.http.client.HttpResponseException: Proxy Error
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:92)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:55)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:69)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.egit.ui 4 0 2019-01-29 12:51:20.602
+!MESSAGE file:///F:\Git: not found.
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: file:///F:\Git: not found.
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:223)
+	at org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:159)
+	at org.eclipse.egit.core.op.ListRemoteOperation.run(ListRemoteOperation.java:99)
+	at org.eclipse.egit.ui.internal.clone.SourceBranchPage$8.run(SourceBranchPage.java:339)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.eclipse.jgit.errors.NoRemoteRepositoryException: file:///F:\Git: not found.
+	at org.eclipse.jgit.transport.TransportLocal$1.open(TransportLocal.java:131)
+	at org.eclipse.jgit.transport.TransportBundleFile$1.open(TransportBundleFile.java:106)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:561)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:318)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:288)
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:189)
+	... 4 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-29 12:53:54.401
+!MESSAGE An internal error occurred during: "Cloning from https://github.com/sonalshivhare/xmlParser.git".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(Unknown Source)
+	at java.nio.file.Files.createSymbolicLink(Unknown Source)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.create(FileRepository.java:306)
+	at org.eclipse.jgit.api.InitCommand.call(InitCommand.java:115)
+	at org.eclipse.jgit.api.CloneCommand.init(CloneCommand.java:168)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:133)
+	at org.eclipse.egit.core.op.CloneOperation.run(CloneOperation.java:156)
+	at org.eclipse.egit.ui.internal.clone.AbstractGitCloneWizard.executeCloneOperation(AbstractGitCloneWizard.java:453)
+	at org.eclipse.egit.ui.internal.clone.AbstractGitCloneWizard.access$2(AbstractGitCloneWizard.java:446)
+	at org.eclipse.egit.ui.internal.clone.AbstractGitCloneWizard$6.run(AbstractGitCloneWizard.java:425)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-29 12:55:17.160
+!MESSAGE An internal error occurred during: "Cloning from https://github.com/sonalshivhare/xmlParser.git".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(Unknown Source)
+	at java.nio.file.Files.createSymbolicLink(Unknown Source)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.create(FileRepository.java:306)
+	at org.eclipse.jgit.api.InitCommand.call(InitCommand.java:115)
+	at org.eclipse.jgit.api.CloneCommand.init(CloneCommand.java:168)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:133)
+	at org.eclipse.egit.core.op.CloneOperation.run(CloneOperation.java:156)
+	at org.eclipse.egit.ui.internal.clone.AbstractGitCloneWizard.executeCloneOperation(AbstractGitCloneWizard.java:453)
+	at org.eclipse.egit.ui.internal.clone.AbstractGitCloneWizard.access$2(AbstractGitCloneWizard.java:446)
+	at org.eclipse.egit.ui.internal.clone.AbstractGitCloneWizard$6.run(AbstractGitCloneWizard.java:425)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2019-01-29 12:55:26.224 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-29 12:55:36.956
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lenovo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2019-01-29 12:55:38.518
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Proxy Error. ; version: 1.100.0.v20160217-0435
+!STACK 0
+org.apache.http.client.HttpResponseException: Proxy Error
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:92)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:55)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:69)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-29 12:56:01.171
+!MESSAGE An internal error occurred during: "Cloning from https://github.com/sonalshivhare/xmlParser.git".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(Unknown Source)
+	at java.nio.file.Files.createSymbolicLink(Unknown Source)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.create(FileRepository.java:306)
+	at org.eclipse.jgit.api.InitCommand.call(InitCommand.java:115)
+	at org.eclipse.jgit.api.CloneCommand.init(CloneCommand.java:168)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:133)
+	at org.eclipse.egit.core.op.CloneOperation.run(CloneOperation.java:156)
+	at org.eclipse.egit.ui.internal.clone.AbstractGitCloneWizard.executeCloneOperation(AbstractGitCloneWizard.java:453)
+	at org.eclipse.egit.ui.internal.clone.AbstractGitCloneWizard.access$2(AbstractGitCloneWizard.java:446)
+	at org.eclipse.egit.ui.internal.clone.AbstractGitCloneWizard$6.run(AbstractGitCloneWizard.java:425)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2019-01-29 12:57:03.432 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-29 12:57:12.202
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lenovo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2019-01-29 12:57:13.827
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Proxy Error. ; version: 1.100.0.v20160217-0435
+!STACK 0
+org.apache.http.client.HttpResponseException: Proxy Error
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:92)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:55)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:69)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-29 13:00:54.561
+!MESSAGE An internal error occurred during: "Cloning from https://github.com/sonalshivhare/xmlParser.git".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(Unknown Source)
+	at java.nio.file.Files.createSymbolicLink(Unknown Source)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.create(FileRepository.java:306)
+	at org.eclipse.jgit.api.InitCommand.call(InitCommand.java:115)
+	at org.eclipse.jgit.api.CloneCommand.init(CloneCommand.java:168)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:133)
+	at org.eclipse.egit.core.op.CloneOperation.run(CloneOperation.java:156)
+	at org.eclipse.egit.ui.internal.clone.AbstractGitCloneWizard.executeCloneOperation(AbstractGitCloneWizard.java:453)
+	at org.eclipse.egit.ui.internal.clone.AbstractGitCloneWizard.access$2(AbstractGitCloneWizard.java:446)
+	at org.eclipse.egit.ui.internal.clone.AbstractGitCloneWizard$6.run(AbstractGitCloneWizard.java:425)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-29 13:03:06.297
+!MESSAGE An internal error occurred during: "Cloning from https://github.com/sonalshivhare/xmlParser.git".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(Unknown Source)
+	at java.nio.file.Files.createSymbolicLink(Unknown Source)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.create(FileRepository.java:306)
+	at org.eclipse.jgit.api.InitCommand.call(InitCommand.java:115)
+	at org.eclipse.jgit.api.CloneCommand.init(CloneCommand.java:168)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:133)
+	at org.eclipse.egit.core.op.CloneOperation.run(CloneOperation.java:156)
+	at org.eclipse.egit.ui.internal.clone.AbstractGitCloneWizard.executeCloneOperation(AbstractGitCloneWizard.java:453)
+	at org.eclipse.egit.ui.internal.clone.AbstractGitCloneWizard.access$2(AbstractGitCloneWizard.java:446)
+	at org.eclipse.egit.ui.internal.clone.AbstractGitCloneWizard$6.run(AbstractGitCloneWizard.java:425)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2019-01-29 13:03:28.666 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-01-29 13:03:37.581
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lenovo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

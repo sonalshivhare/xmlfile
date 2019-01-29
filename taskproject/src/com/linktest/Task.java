@@ -1,0 +1,49 @@
+package com.linktest;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+
+import static org.testng.Assert.assertEquals;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterSuite;
+
+public class Task {
+	public WebDriver driver;
+	 @BeforeSuite
+	  public void launch_Browser() {
+		 driver=new FirefoxDriver();
+			driver.get("file:///C:/Users/Lenovo/Desktop/JBK%20Offline/index.html");
+			driver.manage().window().maximize();
+	  }
+	 @BeforeMethod
+	  public void beforeMethod() {
+	  }
+
+  @Test
+  public void Verify_Home() {
+	
+	  System.out.println(1);
+	  String actual_home=driver.findElement(By.xpath(".//a[@ href='index.html']")).getText();
+	  	System.out.println(actual_home);
+	  	
+	  String expected_home="Home";
+	  System.out.println(expected_home);
+	  Assert.assertEquals(actual_home, expected_home);
+	  
+	  
+  }
+ 
+ 
+
+  @AfterSuite
+  public void Close_Browser() {
+	  driver.close();
+  }
+
+}

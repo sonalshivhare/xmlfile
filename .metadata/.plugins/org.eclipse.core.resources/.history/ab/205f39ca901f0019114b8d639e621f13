@@ -1,0 +1,32 @@
+package com.linktest;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterSuite;
+
+public class Task {
+	public WebDriver driver;
+	 @BeforeSuite
+	  public void beforeSuite() {
+		 driver=new FirefoxDriver();
+			driver.get("file:///C:/Users/Lenovo/Desktop/JBK%20Offline/index.html");
+			driver.manage().window().maximize();
+	  }
+	
+  @Test
+  public void f() {
+  }
+  @BeforeMethod
+  public void beforeMethod() {
+  }
+
+ 
+
+  @AfterSuite
+  public void afterSuite() {
+  }
+ // driver.close();
+}

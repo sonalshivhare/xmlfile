@@ -1,0 +1,18 @@
+<class>
+    <student >
+           <firstname>Sam</firstname>
+           <lastname>Anderson</lastname>
+           <score>90</score>
+     </student>
+     <student >
+     
+           <firstname>Jen</firstname>
+           <lastname>Marcus</lastname>
+           <score>95</score>
+     </student>
+     <student >
+           <firstname>Sara</firstname>
+           <lastname>Jamil</lastname>
+           <score>90</score>
+     </student>
+</class>
